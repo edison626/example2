@@ -1,4 +1,4 @@
-FROM scratch
+FROM golang:latest
 WORKDIR /app
 
 COPY guestbook /app/guestbook
